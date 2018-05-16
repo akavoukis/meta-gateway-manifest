@@ -15,7 +15,7 @@
   -->
 
   <project remote="yocto"		upstream="rocko"  name="poky"/>
-  <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi"/>
+  <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi" path="poky/meta-raspberrypi"/>
 
   <!--	
   <project remote="yocto"     revision="470cd54e44913f81c76538641bbdd80574624677" upstream="rocko"  name="meta-freescale" path="sources/meta-freescale"/>

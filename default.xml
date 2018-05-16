@@ -5,6 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git"	name="yocto"/>
   <remote fetch="https://github.com/agherzan" 		name="raspberrypi"/>
+
   <!-- <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/Freescale"     name="freescale"/>
   <remote fetch="git://github.com/meta-qt5"        name="QT5"/>
@@ -14,9 +15,9 @@
   -->
 
   <project remote="yocto"		upstream="rocko"  name="poky"/>
-  <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi"	path="poky"/>
+  <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi"/>
 
-  <!--
+  <!--	
   <project remote="yocto"     revision="470cd54e44913f81c76538641bbdd80574624677" upstream="rocko"  name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe"        revision="6e3fc5b8d904d06e3aa77e9ec9968ab37a798188" upstream="rocko"  name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="freescale" revision="37c79046d13d10ab16561dddc764c0164ee5deaa" upstream="rocko"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>

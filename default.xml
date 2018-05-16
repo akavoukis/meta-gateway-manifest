@@ -5,17 +5,18 @@
 
   <remote fetch="https://git.yoctoproject.org/git"	name="yocto"/>
   <remote fetch="https://github.com/agherzan" 		name="raspberrypi"/>
+  <remote fetch="https://github.com/sbabic"		name="swupdate"/>
 
   <!-- <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/Freescale"     name="freescale"/>
   <remote fetch="git://github.com/meta-qt5"        name="QT5"/>
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
-  <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/akavoukis"     name="meta-swupdate"/>
   -->
 
   <project remote="yocto"		upstream="rocko"  name="poky"/>
   <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi" path="poky/meta-raspberrypi"/>
+  <project remote="swupdate"		upstream="rocko"  name="meta-swupdate" path="poky/meta-swupdate"/>
 
   <!--	
   <project remote="yocto"     revision="470cd54e44913f81c76538641bbdd80574624677" upstream="rocko"  name="meta-freescale" path="sources/meta-freescale"/>
@@ -24,7 +25,6 @@
   <project remote="freescale" revision="7250d0d2c3d552dfdb1b7dcc414ee55169bec1c8" upstream="rocko"  name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="QT5"       revision="d87335a50a9dd35d890786edbd79b8953fdaa11a" upstream="rocko"  name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb" upstream="master" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="sbabic"    revision="0fb115e97187c069f0da90163f1f374a6b7a4af7" upstream="rocko"  name="meta-swupdate" path="sources/meta-swupdate"/>
   <project remote="variscite" revision="38f8d23da06f6e284014bbea91d162ae5ddb0aec" upstream="rocko"  name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
   -->
 

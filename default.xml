@@ -5,7 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git"	name="yocto"/>
   <remote fetch="https://github.com/agherzan" 		name="raspberrypi"/>
-  <remote fetch="https://github.com/sbabic"		name="swupdate"/>
+  <remote fetch="https://github.com/sbabic"		name="swupdate" revision="master"/>
   <remote fetch="https://github.com/akavoukis"          name="gateway" revision="master"/>
   <remote fetch="https://github.com/openembedded"  	name="oe"/>
 

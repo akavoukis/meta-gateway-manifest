@@ -6,6 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git"	name="yocto"/>
   <remote fetch="https://github.com/agherzan" 		name="raspberrypi"/>
   <remote fetch="https://github.com/sbabic"		name="swupdate"/>
+  <remote fetch="https://github.com/akavoukis"          name="gateway"/>
 
 
   <!-- <remote fetch="https://github.com/openembedded"  name="oe"/>
@@ -19,6 +20,7 @@
   <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi" path="poky/meta-raspberrypi"/>
   <project remote="swupdate"		upstream="rocko"  name="meta-swupdate" path="poky/meta-swupdate"/>
   <project remote="yocto"               upstream="rocko"  name="meta-mono" path="poky/meta-mono"/>
+  <project remote="gateway"             upstream="master"  name="meta-gateway" path="poky/meta-gateway"/>
 
   <!--	
   <project remote="yocto"     revision="470cd54e44913f81c76538641bbdd80574624677" upstream="rocko"  name="meta-freescale" path="sources/meta-freescale"/>

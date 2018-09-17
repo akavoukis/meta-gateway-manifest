@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="rocko"/>
+  <default sync-j="4" revision="sumo"/>
 
   <remote fetch="https://git.yoctoproject.org/git"	name="yocto"/>
   <remote fetch="https://github.com/agherzan" 		name="raspberrypi"/>
@@ -9,11 +9,11 @@
   <remote fetch="https://github.com/akavoukis"          name="gateway" revision="master"/>
   <remote fetch="https://github.com/openembedded"  	name="oe"/>
 
-  <project remote="yocto"		upstream="rocko"  name="poky"/>
-  <project remote="raspberrypi"		upstream="rocko"  name="meta-raspberrypi" 	path="poky/meta-raspberrypi"/>
-  <project remote="swupdate"		upstream="rocko"  name="meta-swupdate" 		path="poky/meta-swupdate"/>
-  <project remote="yocto"               upstream="rocko"  name="meta-mono" 		path="poky/meta-mono"/>
-  <project remote="gateway"             upstream="master" name="meta-gateway" 		path="poky/meta-gateway"/>
-  <project remote="oe"                  upstream="rocko"  name="meta-openembedded"      path="poky/meta-openembedded"/>
+  <project remote="yocto"		upstream="sumo"  name="poky"/>
+  <project remote="raspberrypi"		upstream="sumo"  name="meta-raspberrypi" 	path="poky/meta-raspberrypi"/>
+  <project remote="swupdate"		upstream="sumo"  name="meta-swupdate" 		path="poky/meta-swupdate"/>
+  <project remote="yocto"               upstream="sumo"  name="meta-mono" 		path="poky/meta-mono"/>
+  <project remote="gateway"             upstream="sumo"  name="meta-gateway" 		path="poky/meta-gateway"/>
+  <project remote="oe"                  upstream="sumo"  name="meta-openembedded"       path="poky/meta-openembedded"/>
 
 </manifest>
